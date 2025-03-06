@@ -1,0 +1,112 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            background-image: url(sele.png);
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container,
+        .calendar,
+        .day-container {
+            display: none;
+        }
+
+        .container.active,
+        .calendar.active,
+        .day-container.active {
+            display: block;
+        }
+
+        .month-btn {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 18px;
+            border: none;
+            background-color: #cc86b3;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .month-btn:hover {
+            background-color: #aa4085;
+            transform: scale(1.1);
+        }
+
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        td:hover {
+            background-color: #db3434;
+            color: white;
+        }
+
+        .highlight {
+            background-color: #c0196c !important;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .calendarioxd {
+            color: white;
+            background-color: #cc86b3;
+            transform: scale(1.1);
+        }
+
+        .reset-btn {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 18px;
+            border: none;
+            background-color: #cc86b3;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 10px;
+            left: 42%;
+        }
+
+        .reset-btn:hover {
+            background-color: #aa4085;
+            transform: scale(1.2);
+        }
+
+        .back-btn {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 18px;
+            border: none;
+            background-color: #cc86b3;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .back-btn:hover {
+            background-color: #aa4085;
+            transform: scale(1.2);
+
+        }
+    

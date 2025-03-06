@@ -1,0 +1,53 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            background-image: url(/agus\ el\ pro/..sele.png);
+            background-position:center;
+            background-attachment: fixed;
+        }
+        /* Escondemos el calendario inicialmente */
+        .container, .calendar, .day-container {
+            display: none;
+        }
+        .container.active, .calendar.active, .day-container.active {
+            display: block;
+        }
+        .login-container {
+            display: block;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .login-container input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .login-container button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #cc86b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #aa4085;
+        }
+        .error-message {
+            color: red;
+            font-family: sans-serif;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 18px;
+            border: none;
+            background-color: #ffffff;
+            color: rgb(248, 2, 2);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    

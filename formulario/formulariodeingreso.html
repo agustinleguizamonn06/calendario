@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario 2025</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="login-container" id="login-container">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" id="username" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="login()">Entrar</button>
+        <p class="error-message" id="error-message" style="display: none;">Usuario o contraseña incorrectos</p>
+    </div>
+
+    <div class="container active" id="months">
+        <!-- Tus botones de meses aquí -->
+    </div>
+
+    <div id="calendar-container" class="calendar"></div>
+    <div id="day-container" class="day-container"></div>
+
+    <script src="formulario.js"></script>
+</body>
+</html>

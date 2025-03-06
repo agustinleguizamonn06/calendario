@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario 2025</title>
+<link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <h2 class="calendarioxd">Calendario 2025</h2>
+    <div class="container active" id="months">
+        <button class="month-btn" onclick="showMonth('noviembre')">Noviembre 2024</button>
+        <button class="month-btn" onclick="showMonth('diciembre')">Diciembre 2024</button>
+        <button class="month-btn" onclick="showMonth('enero')">Enero</button>
+        <button class="month-btn" onclick="showMonth('febrero')">Febrero</button>
+        <button class="month-btn" onclick="showMonth('marzo')">Marzo</button>
+        <button class="month-btn" onclick="showMonth('abril')">Abril</button>
+        <button class="month-btn" onclick="showMonth('mayo')">Mayo</button>
+        <button class="month-btn" onclick="showMonth('junio')">Junio</button>
+        <button class="month-btn" onclick="showMonth('julio')">Julio</button>
+        <button class="month-btn" onclick="showMonth('agosto')">Agosto</button>
+        <button class="month-btn" onclick="showMonth('septiembre')">Septiembre</button>
+        <button class="month-btn" onclick="showMonth('octubre')">Octubre</button>
+        <button class="month-btn" onclick="showMonth('noviembre')">Noviembre</button>
+        <button class="month-btn" onclick="showMonth('diciembre')">Diciembre</button>
+        <button class="reset-btn" onclick="resetCalendar()">Resetear Calendario</button>
+    </div>
+
+    <div id="calendar-container" class="calendar"></div>
+
+    <div id="day-container" class="day-container">
+        <button class="back-btn" onclick="closeDay()">Volver</button>
+        <h3 id="day-title"></h3>
+        <input type="file" id="image-input" accept="image/*">
+        <button onclick="saveImage()">Guardar Imagen</button>
+        <button id="delete-btn" onclick="deleteImage()" style="display:none;">Eliminar Imagen</button>
+        <div id="event-content"></div>
+    </div>
+<script src="final.js"></script>
+</body>
+
+</html>
